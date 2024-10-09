@@ -1,0 +1,31 @@
+input.flatpickr.hidden{
+    display: none;
+}
+
+.hours-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    >div{
+        margin-bottom: 20px;
+        label{
+            font-weight: 700;
+        }
+    }
+}
+
+.modal{
+    .modal-body{
+        .row{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+#reservationForm{
+    &.hidden{
+        display: none;
+    }
+}

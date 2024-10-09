@@ -1,0 +1,51 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "DM Sans", 'Arial', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+input{
+  border: solid 1px darken(white, 30%);
+  border-radius: 13px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+button{
+  display: inline-block;
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+
+  }
+}

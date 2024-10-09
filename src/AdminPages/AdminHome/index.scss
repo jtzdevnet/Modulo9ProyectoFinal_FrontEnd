@@ -1,0 +1,24 @@
+@import 'datatables.net-responsive-dt';
+@import 'datatables.net-select-dt';
+
+.admin-page{
+    .container{
+        @media(min-width:1530px){
+            max-width: 1500px;
+        }
+    }
+
+    thead, tbody{
+        font-size: 14px;
+    }
+    
+}
+
+.nav-link{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.tab-content{
+    padding-top: 30px;
+}

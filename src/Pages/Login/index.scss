@@ -1,0 +1,58 @@
+.login-page{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    >div{
+        max-width: 480px;
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 53px -15px #0000006b;
+        .logo-wrap{
+            text-align: center;
+            margin-bottom: 30px;
+            img{
+                max-width: 200px;
+            }
+        }
+        h1{
+            margin-bottom: 15px;
+        }
+        form{
+            >div{
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: flex-start;
+                text-align: left;
+                margin-bottom: 10px;
+                width: 100%;
+                label{
+                    margin-bottom: 5px;
+                }
+                input{
+                    width: 100%;
+                    border-radius: 6px;
+                }
+                button{
+                    display: block;
+                    width: 100%;
+                    margin-top: 20px;
+                }
+            }
+            .alert{
+                width: 100%;
+            }
+        }
+    }
+}
